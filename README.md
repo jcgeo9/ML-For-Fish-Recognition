@@ -17,13 +17,13 @@ This repository is divided into two directories:
 
 The datasets used in this repository and their corresponding kaggle repositories are:
 * Fish-No Fish
-  * kaggle url
+  * https://www.kaggle.com/giannisgeorgiou/fish-or-no-fish-simple-images
 * Species
-  * kaggle url
+  * https://www.kaggle.com/giannisgeorgiou/fish-species
 * Fish-No Fish with Species Images
-  * kaggle url
+  * https://www.kaggle.com/giannisgeorgiou/fish-or-no-fish-species-images
 * Fish-No Fish with Combined Images
-  * kaggle url
+  * https://www.kaggle.com/giannisgeorgiou/fish-or-no-fish-simple-and-species-images
 
 ## Instructions on Python Files
 
@@ -53,5 +53,10 @@ If one wishes to make changes to the app:
 2. Open it via Android Studio
 3. Start editing
 
+If one wishes to use a new model in the app:
+1. Convert the model to .tflite instance 
+2. Upload .tflite model to assets directory
+3. Change files according to the .tflite model name
 
-**If one chooses to use a model which is not referenced here, training models with these files may not produce a good result. Model architecture and training depends on the domain and the dataset**
+
+**If one chooses to use a model which is not referenced here, training models with these files may not produce a good result. Model accuracy and loss depends on the domain and the dataset, thus changing the dataset but not the model architecture will have a different result**
