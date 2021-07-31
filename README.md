@@ -9,8 +9,9 @@ Supervisor: Peter McBurney
 
 ## Repository Contents
 
-This repository is divided into two directories:
+This repository is divided into the following directories:
 * Dataset Preparation, Model Training and Model Testing Python Code
+* Saved Binary and Multi-Class Classification Models
 * Android App Code and APK File
 
 ## Datasets
