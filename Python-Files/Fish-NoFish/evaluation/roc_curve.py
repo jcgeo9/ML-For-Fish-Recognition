@@ -2,8 +2,8 @@
 # Created By  : Giannis Kostas Georgiou
 # Project     : Machine Learning for Fish Recognition (Individual Project)
 # =============================================================================
-# Description : File to load the saved species model, predict class of images
-#               of its test set and plot and save its confusion matrix
+# Description : File to load the saved model, predict class of images
+#               of its test set and plot and save its roc curve
 #               To be used after test set is converted to .pickle files and
 #               model is trained and saved
 # How to use  : Replace variables in CAPS according to needs of the test set
