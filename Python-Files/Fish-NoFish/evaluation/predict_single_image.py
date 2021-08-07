@@ -30,7 +30,7 @@ def prepare(filepath):
     return norm_array.reshape(-1, IMG_SIZE, IMG_SIZE, 1)  # return the image with shaping that TF wants.
 
 #loads the saved model from the path specified
-model=tf.keras.models.load_model("drive/MyDrive/PROJECT_ML_BINARY_CLASSIFIER/Binary_Filters_32,32,64,64,64-Dense_64_BEST")
+model=tf.keras.models.load_model(model_path)
 
 #to display the raw image
 image = Image.open(path_to_image)
