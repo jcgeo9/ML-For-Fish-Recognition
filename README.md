@@ -35,7 +35,7 @@ Instructions on how to use the python files are provided inside each file as a c
 4. Use the "/model_training" directory to train models and find the most suitable
 5. Use the "/model_testing" directory to test trained models of his choice
 
-If one wishes to avoid training models and wants to obtain the trained ones they are located in "/trained_models" directory and can be used after the following:
+If one wishes to avoid training models and wants to obtain the trained ones they are located in "/Saved-Models" directory and can be used after the following:
 1. Download the model directory
 2. Loading the model using the following command
 >#loads the saved model from the path specified
