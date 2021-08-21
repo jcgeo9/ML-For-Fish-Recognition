@@ -1,5 +1,5 @@
 # ML-For-Fish-Recognition
-Created for my Master's Thesis. Contains datasets, python code and Android Studio code.
+Created for my Master's Thesis.
 
 Name: Giannis Kostas Georgiou
 
@@ -12,7 +12,6 @@ Supervisor: Peter McBurney
 This repository is divided into the following directories:
 * Dataset Preparation, Model Training and Model Testing Python Code
 * Saved Binary and Multi-Class Classification Models
-* Android App Code and APK File
 
 ## Datasets
 
@@ -41,23 +40,5 @@ If one wishes to avoid training models and wants to obtain the trained ones they
 >#loads the saved model from the path specified
 >
 >model=tf.keras.models.load_model(model_path)
-
-## Instructions on Android App Files
-
-If one wishes to download and use the app:
-1. Download the .apk file in the directory
-2. If downloaded from an android device, install it and it is ready to be used
-3. If downloaded from a PC, send the .apk file to an android device, install it and it is ready to be used
-
-If one wishes to make changes to the app:
-1. Download the "/fish_recognition" directory
-2. Open it via Android Studio
-3. Start editing
-
-If one wishes to use a new model in the app:
-1. Convert the model to .tflite instance 
-2. Upload .tflite model to assets directory
-3. Change files according to the .tflite model name
-
 
 **If one chooses to use a model which is not stored here, training models with these files may not produce a good result. Model accuracy and loss depends on the domain and the dataset, thus changing the dataset but not the model architecture will have a different result**
