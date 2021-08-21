@@ -5,7 +5,10 @@ Name: Giannis Kostas Georgiou
 
 Student ID: 20090232
 
-Supervisor: Peter McBurney
+Supervisor: Dr Peter McBurney
+
+The Android App files and info are located at:
+* https://github.com/jcgeo9/ML-For-Fish-Recognition-App
 
 ## Repository Contents
 
